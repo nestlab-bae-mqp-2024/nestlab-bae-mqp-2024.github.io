@@ -22,6 +22,10 @@
     </p>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/JnMw7biMyI8?si=eDI_XFZrclZnSJch" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+    <p class="mt-5">
+      Heuristic 1 + ORCA + Deadlock Resolution Demo!
+    </p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Fwy_5q_lkCc?si=f2S7TXlu_h8KGwp8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   </div>
 </template>
 
