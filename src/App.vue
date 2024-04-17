@@ -13,7 +13,7 @@
   </div>
 
   <footer class="text-center text-gray-500 my-10">
-    <small>&copy; Copyright 2024, <router-link class="hover:underline" to="/">Yaşar İdikut, Camden Cummings, Samara Holmes</router-link></small>
+    <small>&copy; Copyright 2024, <a class="hover:underline" href="https://godofkebab.github.io/">Yaşar İdikut</a>, Camden Cummings, Samara Holmes</small>
   </footer>
 
 </template>
