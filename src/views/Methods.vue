@@ -1,7 +1,7 @@
 <template>
   <div class="text-xl m-10">
     <p class="mb-5">
-      Here, you can find out how we are impl
+      Here, you can find out how we are implementing each of our solvers as well as our environments(simulations and lab setups).
     </p>
 
     <p class="mb-5">
