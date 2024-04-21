@@ -4,12 +4,12 @@
   <div class="p-5"></div>
   <div class="container mx-auto bg-gray-200 rounded-md shadow border p-1 grid grid-cols-4 gap-0.5 max-w-xs z-10">
     <router-link class="col-span-1 hover:bg-gray-400 rounded-md text-center transition" :class="$router.currentRoute.value.path === '/' ? 'bg-gray-300' : ''" to="/">Home</router-link>
-    <router-link class="col-span-1 hover:bg-gray-400 rounded-md text-center transition" :class="$router.currentRoute.value.path.startsWith('/methods') ? 'bg-gray-300' : ''" v-on:mouseover="isHoveringMethods = true;wasHoveringMethods=true" v-on:mouseleave="wasHoveringMethods=false; turnOffMethods()" to="/methods">Methods</router-link>
+    <router-link class="col-span-1 hover:bg-gray-400 rounded-md text-center transition" :class="$router.currentRoute.value.path.startsWith('/methods') ? 'bg-gray-300' : ''" to="/methods">Methods</router-link>
     <router-link class="col-span-1 hover:bg-gray-400 rounded-md text-center transition" :class="$router.currentRoute.value.path.startsWith('/results') ? 'bg-gray-300' : ''" to="/results">Results</router-link>
     <router-link class="col-span-1 hover:bg-gray-400 rounded-md text-center transition" :class="$router.currentRoute.value.path.startsWith('/contact') ? 'bg-gray-300' : ''" to="/contact">Contact</router-link>
   </div>
 
-  <div v-show="isHoveringMethods || $router.currentRoute.value.path.startsWith('/methods')" class="container mx-auto bg-gray-200 rounded-md shadow border p-1 mb-10 max-w-sm z-10"  v-on:mouseover="isHoveringMethods = true;wasHoveringMethods=true" v-on:mouseleave="wasHoveringMethods=false;turnOffMethods()">
+  <div v-show="$router.currentRoute.value.path.startsWith('/methods')" class="container mx-auto bg-gray-200 rounded-md shadow border p-1 mt-5 mb-10 max-w-sm z-10">
     <div class="grid grid-cols-3 gap-0.5 ">
       <router-link class="rounded-md hover:bg-gray-400 text-sm text-center transition" :class="$router.currentRoute.value.path.startsWith('/methods/milp') ? 'bg-gray-300' : ''" to="/methods/milp">MILP</router-link>
       <router-link class="rounded-md hover:bg-gray-400 text-sm text-center transition" :class="$router.currentRoute.value.path.startsWith('/methods/h1') ? 'bg-gray-300' : ''" to="/methods/h1">Heuristic 1</router-link>
@@ -40,18 +40,9 @@
 export default {
   data() {
     return {
-      isHoveringMethods: false,
-      wasHoveringMethods: false,
     }
   },
   methods: {
-    turnOffMethods() {
-      setTimeout(() => {
-        if (!this.wasHoveringMethods) {
-          this.isHoveringMethods = false
-        }
-      }, 500)
-    }
   }
 }
 </script>

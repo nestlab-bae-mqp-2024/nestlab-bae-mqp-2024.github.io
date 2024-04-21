@@ -8,6 +8,13 @@ import Methods from './views/Methods.vue'
 import Results from './views/Results.vue'
 import Contact from './views/Contact.vue'
 
+import MILP from './views/methods/solvers/MILP.vue'
+import Heuristic1 from './views/methods/solvers/Heuristic1.vue'
+import Heuristic2 from './views/methods/solvers/Heuristic2.vue'
+import PointMassSim from './views/methods/environments/PointMassSim.vue'
+import ARGoSSim from './views/methods/environments/ARGoSSim.vue'
+import ARGoSReal from './views/methods/environments/ARGoSReal.vue'
+
 // 2. Define some routes
 // Each route should map to a component.
 // We'll talk about nested routes later.
@@ -16,6 +23,12 @@ const routes = [
     { path: '/methods', component: Methods },
     { path: '/results', component: Results },
     { path: '/contact', component: Contact },
+    { path: '/methods/milp', component: MILP },
+    { path: '/methods/h1', component: Heuristic1 },
+    { path: '/methods/h2', component: Heuristic2 },
+    { path: '/methods/pms', component: PointMassSim },
+    { path: '/methods/argos-sim', component: ARGoSSim },
+    { path: '/methods/argos-real', component: ARGoSReal },
     { path: '/:pathMatch(.*)*', component: {
             template: "",
             created: function() {

@@ -1,39 +1,69 @@
 <template>
   <div class="text-xl m-10">
     <p class="mb-5">
-      Here, you can find out how we are implementing each of our solvers as well as our environments(simulations and lab setups).
+      Here, you can find out how we are implementing each of our <strong>solvers</strong> as well as our <strong>environments</strong>(simulations and lab setups).
     </p>
 
-    <p class="mb-5">
-      <strong>MILP (Baseline)</strong>
+    <p class="text-2xl mb-5">
+      <strong>Solvers</strong>
     </p>
+    <div class="ml-5">
+      <p class="mb-5">
+        <router-link class="mb-5 underline hover:no-underline" to="/methods/milp"><strong>MILP (Mixed-Integer Linear Programming)</strong></router-link>
+      </p>
 
-    <p class="mb-5">
-      We have a Jupyter Notebook for this! Click <a class="underline hover:no-underline" target="_blank" href="https://github.com/wpi-nest-lab-bae-mqp-2023/milp-intro/blob/main/src/mrpcp_2015/attempts-and-improvements/2015_mrpcp_yasars_attempt_w_redundancy_param.ipynb">here</a> to see.
-    </p>
-    <p class="mb-5">
-      This is the optimal solver for our problem, but it takes days or weeks to solve until optimality.
-      In the case we present (8 robots, 64 nodes, ...), it took my computer 2.5 days to get to a solution with an optimality gap of <8%.
-    </p>
+      <p class="ml-5 mb-5">
+        This is the optimal solver for our problem, but it takes days or weeks to solve until optimality.
+        In the case we present (8 robots, 64 nodes, ...), it took my computer 2.5 days to get to a solution with an optimality gap of <8%.
+      </p>
 
-    <p class="mb-5">
-      <strong>Heuristic 1</strong>
-    </p>
+      <p class="mb-5">
+        <router-link class="mb-5 underline hover:no-underline" to="/methods/h1"><strong>Heuristic 1</strong></router-link>
+      </p>
 
-    <p class="mb-5">
-      We have a Jupyter Notebook for this! Click <a class="underline hover:no-underline" target="_blank" href="https://github.com/wpi-nest-lab-bae-mqp-2023/milp-intro/blob/main/src/heuristic_attempts/yasars_heuristic_attempts/yasars_heuristic_attempt.ipynb">here</a> to see.
-    </p>
-    <p class="mb-5">
-      This is the drop-in replacement for MILP.
-    </p>
+      <p class="ml-5 mb-5">
+        This is the drop-in replacement for MILP. It has an objective similar to MILP.
+      </p>
 
-    <p class="mb-5">
-      <strong>Heuristic 2/Recalc</strong>
-    </p>
+      <p class="mb-5">
+        <router-link class="mb-5 underline hover:no-underline" to="/methods/h2"><strong>Heuristic 2/Recalc</strong></router-link>
+      </p>
 
-    <p class="mb-5">
-      TODO: Explanation
+      <p class="ml-5 mb-5">
+        ...
+      </p>
+    </div>
+
+
+    <p class="text-2xl mb-5">
+      <strong>Environments</strong>
     </p>
+    <div class="ml-5">
+      <p class="mb-5">
+        <router-link class="mb-5 underline hover:no-underline" to="/methods/pms"><strong>Point-Mass-based Simulation</strong></router-link>
+      </p>
+
+      <p class="ml-5 mb-5">
+        ...
+      </p>
+
+      <p class="mb-5">
+        <router-link class="mb-5 underline hover:no-underline" to="/methods/argos-sim"><strong>ARGoS Simulation</strong></router-link>
+      </p>
+
+      <p class="ml-5 mb-5">
+        ...
+      </p>
+
+      <p class="mb-5">
+        <router-link class="mb-5 underline hover:no-underline" to="/methods/argos-real"><strong>ARGoS Real Robots</strong></router-link>
+      </p>
+
+      <p class="ml-5 mb-5">
+        ...
+      </p>
+    </div>
+
 
   </div>
 </template>
