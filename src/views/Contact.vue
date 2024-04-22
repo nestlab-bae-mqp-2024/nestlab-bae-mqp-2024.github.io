@@ -31,28 +31,28 @@
       </div>
     </div>
 
-<!--    <p class="my-2">-->
-<!--      <strong>Sponsors</strong>-->
-<!--    </p>-->
+    <p class="my-2">
+      <strong>Sponsors</strong>
+    </p>
 
-<!--    <div class="flex flex-col sm:flex-row text-center">-->
-<!--      <div class="basis-1/2">-->
-<!--        <p class="mb-2">-->
-<!--          ...-->
-<!--        </p>-->
-<!--        <p class="mb-5">-->
-<!--          ...-->
-<!--        </p>-->
-<!--      </div>-->
-<!--      <div class="basis-1/2">-->
-<!--        <p class="mb-2">-->
-<!--          ...-->
-<!--        </p>-->
-<!--        <p class="mb-5">-->
-<!--          ...-->
-<!--        </p>-->
-<!--      </div>-->
-<!--    </div>-->
+    <div class="flex flex-col sm:flex-row text-center">
+      <div class="basis-1/2">
+        <p class="mb-2">
+          <a class="hover:underline" target="_blank" href="https://www.mathtable.com/zwillinger/">Daniel Zwillinger</a>
+        </p>
+        <p class="mb-5">
+          daniel.zwillinger@baesystems.us
+        </p>
+      </div>
+      <div class="basis-1/2">
+        <p class="mb-2">
+          Benjamin Cooper
+        </p>
+        <p class="mb-5">
+          benjamin.cooper@baesystems.us
+        </p>
+      </div>
+    </div>
 
     <p class="my-2">
       <strong>Advisor</strong>

@@ -28,7 +28,7 @@
   </div>
 
   <footer class="text-center text-gray-500 my-10">
-    <small>&copy; Copyright 2024, <a class="hover:underline" target="_blank" href="https://godofkebab.github.io/">Yaşar İdikut</a>, Camden Cummings, <a class="hover:underline" target="_blank" href="https://samaraholmes.bitbucket.io/">Samara Holmes</a>, <a class="hover:underline" target="_blank" href="https://carlo.pinciroli.net/">Carlo Pinciroli</a></small>
+    <small>&copy; Copyright 2024, <a class="hover:underline" target="_blank" href="https://godofkebab.github.io/">Yaşar İdikut</a>, Camden Cummings, <a class="hover:underline" target="_blank" href="https://samaraholmes.bitbucket.io/">Samara Holmes</a>, <a class="hover:underline" target="_blank" href="https://www.mathtable.com/zwillinger/">Daniel Zwillinger</a>, Benjamin Cooper, <a class="hover:underline" target="_blank" href="https://carlo.pinciroli.net/">Carlo Pinciroli</a></small>
   </footer>
 
 </template>
