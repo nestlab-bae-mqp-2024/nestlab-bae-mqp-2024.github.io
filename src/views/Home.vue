@@ -18,6 +18,10 @@
       Yaşar İdikut, Camden Cummings, Samara Holmes
     </p>
     <p class="text-xl m5-10 5 text-center">
+      <strong>Sponsors: </strong>
+      Daniel Zwillinger, Benjamin Cooper
+    </p>
+    <p class="text-xl m5-10 5 text-center">
       <strong>Advisor: </strong>
       Carlo Pinciroli
     </p>
