@@ -36,30 +36,30 @@
       </div>
     </div>
 
-    <p class="text-xl m5-10 my-10 text-center">
-      <strong>Presentation Slides: </strong>
+    <p class="text-xl m5-10 mt-10 mb-2 text-center">
+      Documents
+    </p>
+    <p class="text-xl m5-10 mb-2 text-center">
+      <strong>Slides: </strong>
       <a href="/WPI_MQP_MRPCUFSFC.pptx" class="underline hover:no-underline" target="_blank"><strong>here</strong></a>
-      <strong class="ml-10">Presentation Poster: </strong>
+      <strong class="ml-5">Poster: </strong>
       <a href="/MQP_Poster.pdf" class="underline hover:no-underline" target="_blank"><strong>here</strong></a>
+      <strong class="ml-5">Report: </strong>
+      <a href="/2023_2024_MQP_Multi_Robot_Persistent_Coverage_Under_Fuel_and_Stochastic_Failure_Constraints.pdf" class="underline hover:no-underline" target="_blank"><strong>here</strong></a>
+
     </p>
 
     <p class="my-5">
-      TODO:
       For a more detailed explanation of the methods used, <router-link class="underline hover:no-underline" to="/methods"><strong>click here</strong></router-link>.
     </p>
 
     <p class="my-5">
-      TODO:
       For a more detailed explanation of our results, <router-link class="underline hover:no-underline" to="/results"><strong>click here</strong></router-link>.
     </p>
 
     <p class="my-5">
       To contact us, <router-link class="underline hover:no-underline" to="/contact"><strong>click here</strong></router-link>.
     </p>
-
-
-
-
   </div>
 </template>
 

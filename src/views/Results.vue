@@ -1,11 +1,8 @@
 <template>
-
-  <p class="text-xl">
-    <strong>Graphs</strong>
-  </p>
+  <div class="text-xl m-10">
 
   <p class="mt-5">
-    Please refer to <a href="/WPI_MQP_MRPCUFSFC.pptx" class="underline hover:no-underline" target="_blank"><strong>slides</strong></a> and <a href="/MQP_Poster.pdf" class="underline hover:no-underline" target="_blank"><strong>poster</strong></a> for now.
+    Please refer to <a href="/WPI_MQP_MRPCUFSFC.pptx" class="underline hover:no-underline" target="_blank"><strong>slides</strong></a>, <a href="/MQP_Poster.pdf" class="underline hover:no-underline" target="_blank"><strong>poster</strong></a>, and <a href="/2023_2024_MQP_Multi_Robot_Persistent_Coverage_Under_Fuel_and_Stochastic_Failure_Constraints.pdf" class="underline hover:no-underline" target="_blank"><strong>report</strong></a>.
   </p>
 
   <p class="text-xl mt-5">
@@ -115,6 +112,7 @@
     </div>
   </div>
 
+  </div>
 
 </template>
 
