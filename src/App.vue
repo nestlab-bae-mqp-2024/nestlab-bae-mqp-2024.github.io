@@ -33,9 +33,6 @@
 
 </template>
 
-<data value="">
-
-</data>
 <script>
 export default {
   data() {
@@ -46,3 +43,22 @@ export default {
   }
 }
 </script>
+
+<style>
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1 {
+    @apply text-2xl;
+    @apply font-bold;
+  }
+  h2 {
+    @apply text-xl;
+    @apply font-bold;
+
+  }
+  /* ... */
+}
+</style>
