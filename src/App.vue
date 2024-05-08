@@ -65,6 +65,12 @@ export default {
   .nb-markdown-cell > p {
     @apply text-xl;
   }
+  .nb-markdown-cell > table {
+    @apply text-base;
+  }
+  .table tr, td, th {
+    @apply pr-2;
+  }
   .nb-cell {
     @apply my-5;
   }
