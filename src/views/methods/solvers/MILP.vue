@@ -17,7 +17,8 @@ export default {
   },
   async created () {
     nb.executeJavaScript = true;
-    const response = await fetch('https://raw.githubusercontent.com/nestlab-bae-mqp-2024/mrpcp-solvers/main/src/mrpcp_2015/attempts-and-improvements/2015_mrpcp_yasars_attempt_w_redundancy_param.ipynb');
+    // const response = await fetch('http://localhost:5173/public/Users/yasaridikut/WebstormProjects/mqp-website/public/py/src/solvers/milp/mqp_milp.ipynb');
+    const response = await fetch('https://raw.githubusercontent.com/nestlab-bae-mqp-2024/mrpcp-solvers/main/src/solvers/milp/mqp_milp.ipynb');
     while (this.$refs.milp_ipynb.hasChildNodes()) {
       this.$refs.milp_ipynb.removeChild(this.$refs.milp_ipynb.lastChild);
     }

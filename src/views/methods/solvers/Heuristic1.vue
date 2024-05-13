@@ -17,8 +17,8 @@ export default {
   },
   async created () {
     nb.executeJavaScript = true;
-    // const response = await fetch('http://localhost:5173/public/Users/yasaridikut/WebstormProjects/mqp-website/public/py/src/heuristic_attempts/yasars_heuristic_attempts/yasars_heuristic_attempt.ipynb');
-    const response = await fetch('https://raw.githubusercontent.com/nestlab-bae-mqp-2024/mrpcp-solvers/main/src/heuristic_attempts/yasars_heuristic_attempts/yasars_heuristic_attempt.ipynb');
+    // const response = await fetch('http://localhost:5173/public/Users/yasaridikut/WebstormProjects/mqp-website/public/py/src/solvers/heuristics/yasars_heuristic/yasars_heuristic.ipynb');
+    const response = await fetch('https://raw.githubusercontent.com/nestlab-bae-mqp-2024/mrpcp-solvers/main/src/solvers/heuristics/yasars_heuristic/yasars_heuristic.ipynb');
     const data = await response.json()
     this.$refs.h1_ipynb.appendChild(nb.parse(data).render());
     Prism.highlightAll()
